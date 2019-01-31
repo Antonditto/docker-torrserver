@@ -10,5 +10,5 @@ RUN apt-get update && apt-get install -y wget && \
     wget -O TorrServer "https://github.com/YouROK/TorrServer/releases/download/$TS_VERSION/TorrServer-linux-amd64" && \
     chmod +x TorrServer
 
-ENTRYPOINT ["/torrserver/TorrServer"]
+ENTRYPOINT ["TorrServer"]
 CMD ["--path", "/db/"]
