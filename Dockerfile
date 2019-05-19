@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Anton Kiselev
 
-ENV TS_VERSION=1.1.70
+ENV TS_VERSION=1.1.71
 
 EXPOSE 8090:8090
 
