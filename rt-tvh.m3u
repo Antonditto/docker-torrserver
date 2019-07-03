@@ -1,0 +1,895 @@
+#EXTM3U
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",1HD Music Television
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_1HDMUSICTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",2х2
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_2X2/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",360° Новости
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_360NEWSHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",360° Подмосковье HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PODMOSKOVIEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",AIVA
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AIVAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Amedia Hit HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AMEDIAHITHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Amedia 1
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_HDAMEDIA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Amedia 2
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AMEDIA2/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Amedia Premium HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_HDAMEDIAPREMIUM/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Animal Planet HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_ANIMALPLANETHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком 18+|erotic_18_plus",Babes TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BABESTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Baby TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BABYTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Bollywood HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BOLLYWOODHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Bolt HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BOLTHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Boomerang
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BOOMERANG/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком 18+|erotic_18_plus",Brazzers TV Europe
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BRAZZERSTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Bridge TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BRIDGEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Bridge TV Classic
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BRIDGETVCLASSIC/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Bridge TV Dance
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BRIDGETVDANCE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Bridge TV Русский хит
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSONGTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Cartoon Network HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_CARTOON_NETWORKSHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",CINEMA
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PARKRAZVLECHENIJ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Clubbing TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_CLUBBINGHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Da Vinci Learning
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DAVINCILEARNING/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Discovery Channel HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_DISCOVERYCHANNELHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Discovery Science HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_DISCOVERYSCIENCEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Disney Channel
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DISNEY/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",DTX HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DTXHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",E TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_E/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Eurochannel
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EUROCHANNEL/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Europa Plus TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EUROPAPLUSTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Eurosport 1 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_EUROSPORTHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Eurosport Gold HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EUROSPORT_GHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Extreme Sports
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EXTREMESPORTS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",FAN HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_FANHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" group-title="educational",Fashion TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_FASHION/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+#EXTINF:-1 tvh-epg="disable" group-title="educational",World Fashion Channel
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_WFCHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Food Network HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_FOODHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",FOX HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_FOXHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",FOX Life HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_FOXLIFEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Gulli
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_GULLI/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",H2 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_H2HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",History HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_HDHISTORY/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining|4K",Home 4K
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_HOME4K_HLS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",ID Investigation Discovery
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_IDXTRAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",JimJam
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_JIMJAM/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Mezzo
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MEZZO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Mezzo Live HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_MEZZOLIVEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",MTV Russia
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",MTV Live HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_MTVLIVEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",MTV Dance
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MTVDANCE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",MTV Hits
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",MTV Rocks
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MTVROCKS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Museum HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MUSEUMHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",myZen.tv HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_MYZENTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Nano HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NANOHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Nat Geo Wild HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",National Geographic HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_NGCHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Nickelodeon HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_NICKELODEONHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком 18+|erotic_18_plus",O-la-la
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_OLALA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Paramount Channel HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_PARAMOUNTCHANNELHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Paramount Comedy HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_PARAMOUNTCOMEDYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",RTG HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RTGHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",RTД HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RTDHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",Russia Today HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_RTTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Russian Extreme
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIANEXTREAM/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining|4K",Russian Extreme UHD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",RUSSIAN MUSICBOX HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIAN_MUSICBOXHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",RU.TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Sony ТВ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_SETHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",SONY SCI-FI
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SONYSCIFI/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",SONY TURBO
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SONYTURBO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Spike HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SPIKEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Star Cinema
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_STARCINEMAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Star Family HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_STARFAMILYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Stingray iConcerts HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ICONCERTSHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",TiJi
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TIJI/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",TLC HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_TLCHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Travel Channel HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TRAVELCHANNELHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Travel+Adventure HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_TRAVELCHANNELHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",TV XXI
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TVXXI/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",TV1000 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TV1000HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",TV1000 Action HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TV1000ACTIONHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",TV1000 Русское кино HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TV1000RUSSKOEKINOHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Ultra HD Cinema
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies|4K",Ultra Cinema 4K
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",VH1 Classic
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_VH1CLASSIC/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",VH1 European
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_VH1EUROPEAN/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Viasat Explore HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_VIASATEXPLOREHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Viasat History HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_VIASATHISTORYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Viasat Nature
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_VIASATNATUREHISTORYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Viasat Sport HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C06_VIASATSPORTHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",ViP COMEDY HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_TV1000COMEDYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",ViP MEGAHIT HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_TV1000MEGAHITHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",ViP PREMIERE HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_TV1000PREMIUMHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",ViP SERIAL HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C06_VIASATGOLFHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Zee TV
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ZEETV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",ZooПарк
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ZOOPARK/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Авто Плюс
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AUTOPLUS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Авто24 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AVTO24HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Анекдот ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ANEKDOTTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|regional",Беларусь 24
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BELARUS24/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|regional",БелРос
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TRO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Бобёр
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BOBER/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Большая Азия HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BIGASIAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",В гостях у сказки
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_VGOSTYAHUSKAZKI/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Вместе-РФ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SOVETFEDERATSII/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Восток ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_VOSTOKTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Детский
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DETSKIJ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Детский мир
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DETSKIJMIR/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Диалоги о рыбалке
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DIALORYBHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Дикая охота HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DIKAYAOHOTAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Дикая рыбалка HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DIKAYARYBALKAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Дикий
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DIKIY/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Доктор
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_24DOC/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Дом кино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DOMKINO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Дом кино Премиум HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DOMKINOPREMIUMHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Домашний
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DOMASHNIY/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Дорама
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DORAMA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Драйв
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_DRIVE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Еврокино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EUROKINO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",Евроновости
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EURONEWS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Еда Премиум HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_EDAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Жар Птица
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_JARPTIZA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Жара HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_JARAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Живая планета
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_JIVAYAPLANETA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Живи
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_JIVI/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Звезда
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ZVEZDA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Здоровое ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ZDOROVOETV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",Известия
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_IZVESTIYAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Иллюзион+
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ULLUSIONPLUS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",История
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_ISTORIYA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Калейдоскоп ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KALEJDOSKOPTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Карусель
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KARUSEL/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",КВН ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KVN/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Кино ТВ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KINOTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Кинокомедия
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_COMEDYTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Киномикс
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTVPLUSKINO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Кинопремьера HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KINOPREMIEREHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Киносвидание HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KINODATEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Киносемья HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KINOFAMILYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Кинохит HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KINOHITHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Комедия
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_KOMEDIA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Красная линия
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_REDLINE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",КХЛ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_KHLHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",ЛДПР ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_LDPR/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Любимое кино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_LUBIMOE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Ля-минор
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AMOLL/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Мама
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MATIDITYA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч! HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MATCHTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч Арена HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_SPORT1HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч Боец
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BOETZ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч! Игра HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MATCHIGRAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч Премьер HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C06_NASHFOOTBALLHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч! Страна
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTVPLUSPORT/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч! Футбол 1 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_FUTBALL1HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч! Футбол 2 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_FUTBALL2HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Матч! Футбол 3 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_FUTBALL3HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",Мир 24
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MIR24/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Мир Premium
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MIRHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Морской
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MORSKOYHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Моторспорт ТВ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MOTORSPORTTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Моя Планета
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MYPLANET/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Мужское кино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTVPLUSKINOSOYUZ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Муз-ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MUZTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Мульт
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_MULT/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music|kids",Мульт и музыка
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_STRANA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Наука 2.0
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NAUKA20/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Наше новое кино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTVPLUSNOVOEKINO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Наше ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NASHETV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Ностальгия
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NOSTALGIYA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",НСТ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NSTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",НТВ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTV_HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",О2ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_O2TVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Оружие
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_WEAPON/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",ОТР
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_OTR/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Охота и рыбалка
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_OHOTAIRYBALKS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Охотник и рыболов HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_OHOTNIKIRYBOLOVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Первый канал HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_1TV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Первый образовательный
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PERVYJOBRAZOVATELNYJ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Пес и Ко
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PESIKO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Планета HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_IQHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Победа
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_POBEDAHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Просвещение
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PROSVESCHENIE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Пятница
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PYATNIZZA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Пятый канал
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_5TV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Радость моя
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RADOSTMOYA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",РБК
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_BRC/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",РЕН ТВ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RENTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Ретро
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RETROTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Родное кино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTVPLUSNASHEKINO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Россия 1 HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_RUSSIA1HD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|informational",Россия 24
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIA24/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Россия К
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIAK/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком 18+|erotic_18_plus",Русская ночь
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIANNIGHT/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Русский бестселлер
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIANBESTSELLER/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Русский детектив
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_RUSSIANDETECTIVE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Русский иллюзион
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIANILLUSION/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Русский роман HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSKIYROMANHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Рыжий
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_GINGER/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Сарафан
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_SARAFAN/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|religion",Союз
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SOYUZ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|religion",Спас
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SPAS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Страшное HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_STRASHNOEHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",СТС
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_STS/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",СТС Kids HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_STSKIDSHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",СТС Love
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_STSLOVE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Супер
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SUPER/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Тайна
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TAINA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",ТВ3
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TV3/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Твой Дом HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TVOIDOMHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",ТВЦ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TVC/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Театр
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_THEATERHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Техно 24
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_24TEHNO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|kids",Тлум HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TLUMHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Тномер
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TNOMER/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",ТНТ HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TNTHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",ТНТ MUSIC
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_AONE/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",ТНТ4
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TNT4/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Точка отрыва
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_TOCHKAOTRYVA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|educational",Усадьба
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_USADBA/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|movies",Феникс+ Кино
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_GENIKSPLUSKINO/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|sport",Футбол Россия
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_FUTBALLHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Че
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_PERETZ/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком 18+|erotic_18_plus",Шалун HD
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SHALUNTVHD/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|music",Шансон ТВ
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_SHANSONTV/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
+
+#EXTINF:-1 tvh-epg="disable" tvh-tags="Ростелеком|entertaining",Ю
+pipe://cvlc --quiet --network-caching=12000 --no-drop-late-frames --no-skip-frames "http://hlsstr01.svc.iptv.rt.ru/hls/CH_U/variant.m3u8" :http-user-agent="alexelec" --sout '#std{mux=ts,access=file,dst=-}'
+
