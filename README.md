@@ -1,2 +1,2 @@
 # Docker container for TorrServer
-Run TorrServer on Docker containder
+Run TorrServer on Docker container
