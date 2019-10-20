@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:disco
 MAINTAINER Anton Kiselev
 
 ENV TS_VERSION=1.1.75
