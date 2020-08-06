@@ -1,4 +1,4 @@
-FROM ubuntu:disco
+FROM ubuntu:focal
 MAINTAINER Anton Kiselev
 
 ENV TS_VERSION=1.1.77
