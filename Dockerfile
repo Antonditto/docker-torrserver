@@ -1,7 +1,7 @@
 FROM ubuntu:focal
 MAINTAINER Anton Kiselev
 
-ENV TS_VERSION=MatriX.90
+ENV TS_VERSION=MatriX.91
 
 EXPOSE 8090:8090
 
